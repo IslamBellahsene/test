@@ -1,0 +1,21 @@
+:root {
+    --bg-body: theme('colors.white');
+
+    /*typo variables*/
+    --heading: theme('colors.red.500');
+    --heading-alt: theme('colors.lime.500');
+    --txt: theme('colors.black');
+    --txt-alt: theme('colors.orange.400');
+    --size:1.125em; /*base font size*/
+    /*end of typo variables*/
+
+    /*navbar variables*/
+    --nav-bg: theme('colors.purple.800');
+    --nav-hover: theme('colors.pink.500');
+    --a-txt: theme('colors.white');
+    /*end of navbar variables*/
+    /*semantics*/
+    --bg-art: theme('colors.purple.400');
+    --bg-sec: theme('colors.purple.300');
+    /*end of semantics*/
+}; 

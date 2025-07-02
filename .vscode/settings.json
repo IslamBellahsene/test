@@ -1,0 +1,10 @@
+{
+  "auto-run-command.rules": [
+    {
+      "match": "tailwind.config.js",
+      "cmd": "npm run watch",
+      "isShellCommand": true,
+      "runOn": "workspaceOpen"
+    }
+  ]
+}

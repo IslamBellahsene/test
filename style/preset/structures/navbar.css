@@ -1,0 +1,23 @@
+/*navigation bar style*/
+.navbar {
+  @apply  flex justify-evenly items-center w-full m-0 p-0;
+  background: var(--nav-bg);
+}
+
+.navbar li {
+  @apply inline basis-1/4;
+  background: var(--nav-bg)
+}
+
+li a {
+  @apply text-center no-underline text-xl font-semibold block py-3 px-4;
+  color: var(--a-txt);
+}
+
+li a:hover,li a.active {
+  background-color: var(--nav-hover);
+}
+
+/*.invisiscroll::-webkit-scrollbar {display: none;}*/
+
+/*end of navigation bar style*/

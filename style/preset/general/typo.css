@@ -1,0 +1,32 @@
+:root{
+  @apply m-0;
+  font-size: var(--size);
+}
+/* bluff heading to solve what i'd call "heading bunnyhop"*/
+h6{color:black}
+/* end of bluff heading */
+h1, h2, h3, h4, h5 {
+  color: var(--heading);
+}
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+
+p{
+  color: var(--txt);
+  @apply pb-2;
+}
+a{
+  color: var(--a-txt);
+  @apply no-underline;
+}

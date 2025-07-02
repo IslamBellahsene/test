@@ -1,0 +1,13 @@
+/*lightbox style*/
+.light {
+  @apply fixed w-full h-full z-[-1] flex justify-center items-center transition-all duration-1000 top-0;
+  background: rgba(0,0,0,0.7);
+  opacity: 0;
+}
+.light.active {
+  @apply z-[4] opacity-100;
+}
+.light img {
+  @apply max-w-full max-h-full;
+}
+/*end of lightbox style*/

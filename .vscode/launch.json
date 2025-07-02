@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Debug Current HTML in Brave",
+      "file": "${file}",
+      "webRoot": "${workspaceFolder}",
+      "runtimeExecutable": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
+      "runtimeArgs": [
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--new-window",
+        "--window-position=960,0",
+        "--window-size=960,1080",
+      ]
+    }
+  ]
+}
